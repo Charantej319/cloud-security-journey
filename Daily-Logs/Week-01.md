@@ -117,6 +117,47 @@ The practical exercises helped me understand why proper permission management is
 
 **Status: Day 2 – Completed**
 
+## Day 3 – 18 November 2026 (Wednesday)
+
+### Today's Focus
+Networking fundamentals and basic network investigation using Kali Linux.
+
+### Tasks Completed
+- Learned the basics of computer networking.
+- Studied LAN, WAN, MAN and WLAN.
+- Understood IPv4, IPv6 and MAC addresses.
+- Learned the difference between public and private IP addresses.
+- Understood DNS, default gateways and basic networking devices.
+- Practised networking commands in Kali Linux.
+- Inspected network interfaces, IP configuration and routing tables.
+- Tested internet connectivity using ping.
+- Verified DNS resolution using nslookup.
+- Documented the concepts and practical findings in GitHub.
+
+### Commands Practised
+- `ip addr`
+- `ip link show`
+- `ip route`
+- `ip -br addr`
+- `cat /etc/resolv.conf`
+- `ping`
+- `nslookup`
+- `hostname`
+- `hostnamectl`
+
+### Practical Results
+- Identified the Kali VM's IPv4 and MAC addresses.
+- Found the default gateway and configured DNS server.
+- Successfully resolved google.com using DNS.
+- Tested connectivity with 8.8.8.8 and google.com.
+- Achieved 0% packet loss in both connectivity tests.
+
+### What I Learned
+Understood how devices communicate over networks and how IP addressing, DNS and routing work together. Also got hands-on experience investigating network configurations through Linux terminal commands.
+
+### Status
+**Day-03 Completed**
+
 Day 1 was mainly about setting up my learning environment and getting started with Linux. I now have my GitHub repository ready and a working Kali Linux environment for upcoming practical exercises.
 
 **Status: Day 1 – Mostly Completed**
